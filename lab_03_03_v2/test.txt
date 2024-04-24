@@ -1,0 +1,42 @@
+MenuBegin
+	WindowBegin
+		Color=(50,50,50)
+		Position=(10,10)
+		Size=(500,500)
+		ButtonBegin
+			Name=Button1
+			Position=(40,40)
+			Size=(60,40)
+			Color=(0,0,255)
+			HiglightColor=(0,255,0)
+		ButtonEnd
+		ButtonBegin
+			Name=Button2
+			Position=(120,40)
+			Size=(120,40)
+			Color=(255,0,0)
+			HiglightColor=(0,255,0)
+		ButtonEnd
+		DialogBegin
+			Name=How you feeling?
+			Position=(40,100)
+			Size=(200,200)
+			Color=(80,80,80)
+			ButtonBegin
+				Name=Sad
+				Position=(40,40)
+				Size=(40,40)
+				Color=(255,0,0)
+				HiglightColor=(0,255,0)
+			ButtonEnd
+			ButtonBegin
+				Name=Funny
+				Position=(100,40)
+				Size=(40,40)
+				Color=(0,0,255)
+				HiglightColor=(0,255,0)
+			ButtonEnd
+		DialogEnd
+
+	WindowEnd
+MenuEnd
